@@ -525,7 +525,6 @@ namespace next_permutation_on_subsegment {
 				root_ = Node::merge(root_, new Node(x));
 		}
 		~Treap() {
-			std::cerr << "privet";
 			Node::delete_Node(root_);
 		}
 		long long sum_on_subsegment(size_t l, size_t r) {
